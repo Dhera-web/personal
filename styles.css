@@ -1,0 +1,414 @@
+/* html {
+   background: red;
+} */
+html {
+  height: 100%;
+}
+body {
+  max-width: auto;
+  min-height: 100%;
+  position: relative;
+}
+.one {
+  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./folder-img.jpeg");
+}
+.one h3 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px 25px;
+  color: white;
+}
+.one p {
+  height: auto;
+  width: auto;
+  background: black;
+  padding: 20px;
+  color: darkorange;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.two {
+  width: 30%;
+  margin: 25px 25px;
+}
+.two h3 {
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two p {
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 20px;
+}
+.four {
+  /* float: right; */
+  float: inline-end;
+  height: auto;
+  width: auto;
+  /* background: black; */
+  border-radius: 50%;
+  margin-bottom: auto;
+  position: relative;
+  /* margin-inline: auto; */
+}
+.four img {
+  margin-bottom: 200px;
+  border-radius: 60%;
+  align-items: center;
+  display: block;
+  max-width: 100%;
+}
+.get {
+  height: auto;
+  width: 40%;
+  background-color: red;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  /* position: relative; */
+  transition: all 1s linear;
+}
+.get a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.get :hover {
+  /* transform: translateX(20px); */
+  color: black;
+}
+.part {
+  height: 5rem;
+  width: 20%;
+  float: right;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 30%;
+  border-bottom: 100px;
+  position: absolute;
+  margin: 10px;
+  /* box-shadow: red; */
+}
+.part p {
+  margin: 15px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.part h4 {
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.same {
+  height: 5rem;
+  width: 20%;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border-bottom: 50px;
+  float: right;
+  position: absolute;
+  z-index: 1;
+  top: 270px;
+  right: 0;
+  /* position: absolute; */
+  /* position: absolute; */
+  /* top: 50px; */
+  /* bottom: 20px; */
+}
+.same p {
+  margin: 15px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.same h4 {
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* .main {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  flex: 1;
+} */
+.do {
+  text-decoration: none;
+}
+.first {
+  height: 15rem;
+  width: 60%;
+  background: red;
+  padding: 27px;
+  margin: 35px 35px;
+  border-radius: 20px;
+}
+.first h4 {
+  width: 59%;
+  /* text-align: center; */
+  margin: 35px;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second {
+  height: 24rem;
+  width: 60%;
+  background: black;
+  margin: 35px 35px;
+  padding: 27px;
+  border-radius: 20px;
+  position: relative;
+}
+.second h4 {
+  font-size: 28px;
+  color: white;
+  margin: 35px;
+  /* text-align: center; */
+}
+/* .second p,
+a,
+h4 {
+  text-align: center;
+} */
+.second p {
+  width: 50%;
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+  margin: 35px;
+  text-align: center;
+  /* font-weight: bold; */
+}
+.second a {
+  text-decoration: none;
+  color: red;
+  margin-left: 37px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.third {
+  height: 20rem;
+  width: 60%;
+  background: black;
+  margin: 35px 35px;
+  padding: 27px;
+  border-radius: 20px;
+  position: relative;
+}
+.third h4 {
+  font-size: 28px;
+  color: white;
+  margin: 35px;
+}
+.third p {
+  width: 50%;
+  font-size: 19px;
+  color: white;
+  margin: 35px;
+  text-align: center;
+}
+.third a {
+  text-decoration: none;
+  color: red;
+  margin-left: 37px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.forth {
+  height: 22rem;
+  width: 60%;
+  background: black;
+  margin: 35px 35px;
+  padding: 27px;
+  border-radius: 20px;
+  position: relative;
+}
+.forth h4 {
+  font-size: 28px;
+  color: white;
+  margin: 25px;
+}
+.forth p {
+  width: 50%;
+  font-size: 19px;
+  color: white;
+  margin: 35px;
+  text-align: center;
+}
+.forth a {
+  text-decoration: none;
+  color: red;
+  margin-left: 37px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.fifth {
+  height: 27rem;
+  width: 60%;
+  background: black;
+  margin: 35px 35px;
+  padding: 27px;
+  border-radius: 20px;
+  position: relative;
+}
+.fifth h4 {
+  font-size: 28px;
+  color: white;
+  margin: 35px;
+}
+.fifth p {
+  width: 50%;
+  font-size: 19px;
+  color: white;
+  margin: 35px;
+  text-align: center;
+}
+.fifth a {
+  text-decoration: none;
+  color: red;
+  margin-left: 37px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.sixth {
+  height: 24rem;
+  width: 60%;
+  background: black;
+  margin: 35px 35px;
+  padding: 27px;
+  border-radius: 20px;
+  position: relative;
+}
+.sixth h4 {
+  font-size: 28px;
+  color: white;
+  margin: 35px;
+}
+.sixth p {
+  width: 50%;
+  font-size: 19px;
+  color: white;
+  margin: 35px;
+  text-align: center;
+}
+.sixth a {
+  text-decoration: none;
+  color: red;
+  margin-left: 37px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.oga {
+  margin-inline: auto;
+  max-width: 45rem;
+  /* background: #333; */
+  max-width: 100%;
+}
+.main-footer {
+  height: auto;
+  width: 100%;
+  background: #333;
+  /* position: absolute; */
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer h4 {
+  font-size: 24px;
+  margin: 35px 35px;
+}
+.ter {
+  font-size: 24px;
+  height: auto;
+  height: 2rem;
+  background: red;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.ter a {
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .oga {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+  align-items: center;
+  justify-content: center;
+} */
+/* @media (min-width: 760px) {
+  .second {
+    position: absolute;
+    left: 750px;
+    top: 1520px;
+  }
+  .forth {
+    position: absolute;
+    left: 750px;
+    top: 2000px;
+  }
+  .sixth {
+    position: absolute;
+    left: 750px;
+    top: 2480px;
+}
+/* .oga {
+  display: flex;
+  flex-direction: 1;
+  flex-wrap: wrap;
+} */
+/* .fame {
+  float: inline-start;
+  position: relative;
+}
+.fame p {
+  position: absolute;
+  top: 5rem;
+} */
+/* main {
+  height: 100vh;
+  background: black;
+} */
+/* .main {
+  display: grid;
+  gap: 3rem;
+}
+
+*/
